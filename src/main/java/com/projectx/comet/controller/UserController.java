@@ -12,7 +12,7 @@ import com.projectx.comet.service.UserService;
 
 @RestController
 @RequestMapping("/api/user")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173","https://comet-frontend.up.railway.app"})
 public class UserController {
 	
 	@Autowired
